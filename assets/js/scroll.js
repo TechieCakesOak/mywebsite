@@ -34,8 +34,7 @@ jQuery(function($) {
         $(window).scroll(headerFixed);
         headerFixed();
         $('.header-side-menu').click(function () {
-            // $html.toggleClass('nav-open');
-            window.open('mailto:ukilevich@yandex.ru?subject=Заказ&body=Здраствуйте')
+            $html.toggleClass('nav-open');
         });
     })();
 });
