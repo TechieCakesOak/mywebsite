@@ -1,0 +1,67 @@
+.photos {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 0 32px;
+margin: 25px 0 0;
+}
+
+.photo {
+height: 190px;
+margin: 0 0px 20px;
+width: 85vw;
+display: flex;
+align-items: flex-end;
+}
+
+@media (min-width: 835px) {
+.photo {
+width: 45vw;
+}
+}
+
+@media (min-width: 990px) {
+.photo {
+width: 30vw;
+}
+}
+
+.photo img {
+width: 100%;
+height:100%;
+object-fit:cover;
+}
+
+.photo span {
+background: #BA0000ab;
+color: #fff;
+position: absolute;
+font-weight: 500;
+padding: 3px 10px;
+font-size: 20px;
+max-width: 49vw;
+margin: 0px 0px 1% 1%;
+}
+
+@media (min-width: 835px) {
+.photo span {
+font-size: 24px;
+max-width: 40vw;
+}
+}
+
+@media (min-width: 990px) {
+.photo span {
+font-size: 20px;
+max-width: 26vw;
+}
+}
+
+.photos-with-zagalovok {
+margin-top: 15px;
+}
+
+.zagalovok-photos {
+text-align: center;
+font-size: 23px;
+}
